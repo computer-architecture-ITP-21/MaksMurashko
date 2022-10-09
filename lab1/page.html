@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head lang="ru">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+<body>
+	<div id="wrapper">
+		<!--Шапка-->
+		<header>
+			<h1>Перевод чисел из шестнадцатеричной в десятичную систему счисления</h1>
+		</header>
+		<!--Основное содержимое-->
+		<main>
+			<div id="description">
+				<button id="prompt1">!</button>
+				<h2>Для перевода числа,введите его в поле слева и нажмите Enter</h2>
+			</div>
+			<div id="calculator">
+				<button id="prompt2" title="Правило перевода">?</button>
+				<input type="text" id="numberBox"><button id="equal">=></button>
+				<div id="resultBox"><p id="result"></p></div>
+			</div>
+		</main>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
